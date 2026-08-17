@@ -1,0 +1,24 @@
+graph TD
+    A[Start: Launch App] --> B{Authenticated?}
+    B -- No --> C[Auth Page: Login/Register]
+    C --> D[Save/Verify Credentials in users.json]
+    D --> B
+    B -- Yes --> E[Data Integration Layer]
+    E --> F[Load CSVs: Leads, Counselling, Apps, Enrollment]
+    F --> G[Merge Data on Lead_ID]
+    G --> H[Feature Engineering: Lead Times, Months, Binary Targets]
+    H --> I[Dashboard Interface]
+    I --> J[Sidebar Filters: City, Channel, Date, Course]
+    J --> K[Tabbed Analytics Engine]
+    
+    subgraph "Analytics Tabs"
+    K1[Overview: Trends & Landscape]
+    K2[Marketing: Channel/City Performance]
+    K3[Operations: Funnel Flow - Sankey]
+    K4[Financials: Revenue Insights]
+    K5[Predictive AI: Lead Scoring]
+    K6[Scenario: Funnel Simulation]
+    end
+
+    K5 --> L[Random Forest Model Training]
+    L --> M[Interactive Lead Scoring Result]

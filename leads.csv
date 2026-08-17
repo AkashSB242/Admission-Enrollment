@@ -1,0 +1,31 @@
+Lead_ID,Name,City,Education,Source_Channel,Date_Lead
+L001,Ravi,Bangalore,BTech,Instagram,2025-01-10
+L002,Sneha,Pune,BSc,LinkedIn,2025-01-11
+L003,Rahul,Hyderabad,BTech,Website,2025-01-12
+L004,Priya,Chennai,MBA,Campus Event,2025-01-13
+L005,Amit,Mumbai,BTech,Instagram,2025-01-14
+L006,Neha,Delhi,BSc,LinkedIn,2025-01-15
+L007,Vikram,Bangalore,MTech,Website,2025-01-16
+L008,Anita,Pune,MBA,Campus Event,2025-01-17
+L009,Ravi,Hyderabad,BTech,Instagram,2025-01-18
+L010,Priya,Chennai,BSc,LinkedIn,2025-01-19
+L011,Amit,Mumbai,BTech,Website,2025-01-20
+L012,Neha,Delhi,MTech,Campus Event,2025-01-21
+L013,Vikram,Bangalore,BSc,Instagram,2025-01-22
+L014,Anita,Pune,BTech,LinkedIn,2025-01-23
+L015,Ravi,Hyderabad,MBA,Website,2025-01-24
+L016,Priya,Chennai,BTech,Campus Event,2025-01-25
+L017,Amit,Mumbai,BSc,Instagram,2025-01-26
+L018,Neha,Delhi,BTech,LinkedIn,2025-01-27
+L019,Vikram,Bangalore,MTech,Website,2025-01-28
+L020,Anita,Pune,MBA,Campus Event,2025-01-29
+L021,Ravi,Hyderabad,BTech,Instagram,2025-01-30
+L022,Priya,Chennai,BSc,LinkedIn,2025-01-31
+L023,Amit,Mumbai,MTech,Website,2025-02-01
+L024,Neha,Delhi,BTech,Campus Event,2025-02-02
+L025,Vikram,Bangalore,BSc,Instagram,2025-02-03
+L026,Anita,Pune,BTech,LinkedIn,2025-02-04
+L027,Ravi,Hyderabad,MBA,Website,2025-02-05
+L028,Priya,Chennai,BTech,Campus Event,2025-02-06
+L029,Amit,Mumbai,BSc,Instagram,2025-02-07
+L030,Neha,Delhi,MTech,LinkedIn,2025-02-08

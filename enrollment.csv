@@ -1,0 +1,31 @@
+Lead_ID,Enrolled,Course,Fee,Date_Enrollment
+L001,Yes,Data Science,50000,2025-01-25
+L002,No,,,
+L003,No,,,
+L004,No,,,
+L005,Yes,Data Science,50000,2025-01-28
+L006,Yes,Digital Marketing,40000,2025-01-30
+L007,No,,,
+L008,Yes,Data Science,50000,2025-02-02
+L009,Yes,Web Development,45000,2025-02-04
+L010,Yes,Data Science,50000,2025-02-06
+L011,No,,,
+L012,Yes,Digital Marketing,40000,2025-02-08
+L013,Yes,Web Development,45000,2025-02-10
+L014,Yes,Data Science,50000,2025-02-12
+L015,No,,,
+L016,Yes,Digital Marketing,40000,2025-02-14
+L017,Yes,Data Science,50000,2025-02-16
+L018,Yes,Web Development,45000,2025-02-18
+L019,No,,,
+L020,Yes,Data Science,50000,2025-02-20
+L021,Yes,Digital Marketing,40000,2025-02-22
+L022,Yes,Web Development,45000,2025-02-24
+L023,No,,,
+L024,Yes,Data Science,50000,2025-02-26
+L025,Yes,Digital Marketing,40000,2025-02-28
+L026,Yes,Web Development,45000,2025-03-02
+L027,No,,,
+L028,Yes,Data Science,50000,2025-03-04
+L029,Yes,Digital Marketing,40000,2025-03-06
+L030,Yes,Web Development,45000,2025-03-08
