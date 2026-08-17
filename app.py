@@ -440,6 +440,11 @@ application_rate = (application_count / counselling_count) * 100 if counselling_
 enrollment_rate = (enrolled_count / application_count) * 100 if application_count > 0 else 0
 overall_rate = (enrolled_count / total_leads) * 100 if total_leads > 0 else 0
 
+revenue_data = filtered_df_enrolled.groupby('Course').agg(
+    enrollments=('Lead_ID', 'count'),
+    total_revenue=('Fee', 'sum')
+).reset_index()
+
 with tab_overview:
     # Dynamic Insights Generator
     st.markdown("### 🌟 Real-Time Performance Snapshot")
@@ -643,10 +648,6 @@ with tab_marketing:
 
 with tab_financials:
     st.subheader("Revenue & Financials")
-    revenue_data = filtered_df_enrolled.groupby('Course').agg(
-        enrollments=('Lead_ID', 'count'),
-        total_revenue=('Fee', 'sum')
-    ).reset_index()
 
     c1, c2, c3 = st.columns(3)
     c1.metric("Total Generated Revenue", f"₹{revenue_data['total_revenue'].sum():,}")
